@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem 2rem 2rem 2rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+input, textarea, select, h1, fieldset{
+    width: 100%;
+    padding: 10px 15px; 
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+fieldset input[type="radio"]{
+    display: inline;
+    text-align: left;
+    width: auto;
+}
+
+.main_heading{
+    border: none;
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(5, 205, 138);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    font-weight: bolder;
+    background-color: rgb(2, 173, 94);
+}

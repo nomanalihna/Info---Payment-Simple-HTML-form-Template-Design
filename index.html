@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mr HNA | Form Template</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div class="section">
+            <form action="#">
+                <h1 class="main_heading">INFORMATION</h1>
+                <p class="name">Name:</p>
+                <input type="text" name="text" placeholder="Enter your Name">
+                <fieldset>
+                    <legend>Gender</legend>
+                    Male<input type="radio" name="male" id="" checked>
+                    Female<input type="radio" name="female" id="">
+                </fieldset>
+                <p class="password">Password:</p>
+                <input type="password" name="password" placeholder="Password">
+                <p class="email">Email:</p>
+                <input type="email" name="email" placeholder="Email">
+                <p class="text-area">Enter the Text:</p>
+                <textarea name="text-area" cols="30" rows="6" placeholder="Enter your Text"></textarea>
+                <h1 class="main_heading">Payment</h1>
+                <p class="card_type">Card Type:</p>
+                <select name="card type">
+                    <option value="-Select Card-">-Select Card-</option>
+                    <option value="Master Card">Master Card</option>
+                    <option value="Visa Card">Visa Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                </select>
+                <p class="card_number">Card Number:</p>
+                <input type="number" name="card_number" placeholder="    -    -    -    ">
+                <p class="cvv_number">CVV:</p>
+                <input type="number" name="cvv_number" placeholder="CVV">
+                <input type="submit" value="Pay">
+            </form>
+        </div>
+        
+    </body>
+</html>
